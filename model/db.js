@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const url = "mongodb://localhost:27017/duantotnghiep"; 
+const url = "mongodb+srv://quanbui0999:quan147@cluster0.ovfa2.mongodb.net/duantotnghiep?retryWrites=true&w=majority&appName=Cluster0"; 
 
 async function connectDb() {
     try {
